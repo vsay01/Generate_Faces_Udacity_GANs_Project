@@ -6,6 +6,8 @@ In this project, we want to define and train a DCGAN on a dataset of faces. Our 
 
 We'll be using the [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) to train our adversarial networks.
 
+![data_set_processed_face_data](images/data_set_processed_face_data.png)
+
 ### Pre-processed Data
 
 Since the project's main focus is on building the GANs, we've done some of the pre-processing for you. Each of the CelebA images has been cropped to remove parts of the image that don't include a face, then resized down to 64x64x3 NumPy images. Some sample data is show below.
